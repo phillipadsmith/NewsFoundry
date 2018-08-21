@@ -1,4 +1,7 @@
-<section class="block block-hero-1">
+<section class="block block-hero-1"
+{% if section.background_image %}
+style="background-image: url('{{ section.background_image | relative_url }}')"
+{% endif %}>
   <div class="container">
     <h1><span class="light">{{ section.heading }}</span></h1>
     <p>{{ section.content }}</p>
