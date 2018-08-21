@@ -1,7 +1,6 @@
 ---
 layout: blocks
-title: Homepage
-date: 2017-11-22 23:00:00 +0000
+title: News Foundry | November 16-18, 2018,</strong> at The Philadelphia Inquirer.
 page_sections:
 - template: navigation-header-w-button
   block: header-2
